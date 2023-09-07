@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{de5bb730-312b-4075-98e5-fb1d00247805}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{01f03767-6b1c-4e9c-8c20-c62aa52ff9b4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5e2035f5-6111-43a0-8a10-6df2f8628980}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PagePropertyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Painter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PainterDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PainterView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SAVEBMP.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Painter.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PagePropertyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Painter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PainterDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PainterView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SAVEBMP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Painter.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\painter1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PainterDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Patterns\Pattern0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Patterns\Pattern1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Patterns\Pattern2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Patterns\Pattern3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Patterns\Pattern4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Patterns\Pattern5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Patterns\Pattern6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Patterns\Pattern7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\circle.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Painter.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\polygon.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\square.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\surface.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor_e.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="POINTER.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

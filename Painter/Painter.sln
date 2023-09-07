@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Painter", "Painter.vcxproj", "{426C3988-29E7-4F8B-807F-ADDEB53014DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{426C3988-29E7-4F8B-807F-ADDEB53014DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{426C3988-29E7-4F8B-807F-ADDEB53014DE}.Debug|x86.Build.0 = Debug|Win32
+		{426C3988-29E7-4F8B-807F-ADDEB53014DE}.Release|x86.ActiveCfg = Release|Win32
+		{426C3988-29E7-4F8B-807F-ADDEB53014DE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0E54ECD-FAC9-4BDE-8E64-4A36160AF3DA}
+	EndGlobalSection
+EndGlobal
