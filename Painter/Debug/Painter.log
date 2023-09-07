@@ -1,0 +1,10 @@
+﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  Shapes.cpp
+D:\University\CompGraphic\Painter\Shapes.cpp(274,1): warning C4838: Преобразование из "int" в "UINT" требует сужающего преобразования.
+D:\University\CompGraphic\Painter\Shapes.cpp(343,1): warning C4838: Преобразование из "int" в "UINT" требует сужающего преобразования.
+  Создание кода...
+  Компиляция...
+  PainterView.cpp
+  PainterDoc.cpp
+  Создание кода...
+  Painter.vcxproj -> D:\University\CompGraphic\Painter\Debug\Painter.exe
