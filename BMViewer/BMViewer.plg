@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BMViewer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Alexey\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/BMViewer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\USERS\Alexey\Work\BMViewer\BMDoc.cpp"
+"E:\USERS\Alexey\Work\BMViewer\BMView.cpp"
+"E:\USERS\Alexey\Work\BMViewer\BMViewer.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Alexey\LOCALS~1\Temp\RSPB.tmp" 
+Creating temporary file "D:\DOCUME~1\Alexey\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/BMViewer.pdb" /machine:I386 /out:"Release/BMViewer.exe" 
+.\Release\BMDoc.obj
+.\Release\BMView.obj
+.\Release\BMViewer.obj
+.\Release\BrightContDlg.obj
+.\Release\ChildFrm.obj
+.\Release\DeNoiseDlg.obj
+.\Release\Filter.obj
+.\Release\HistDlg.obj
+.\Release\HistView.obj
+.\Release\MainFrm.obj
+.\Release\Raster.obj
+.\Release\StdAfx.obj
+.\Release\BMViewer.res
+]
+Creating command line "link.exe @D:\DOCUME~1\Alexey\LOCALS~1\Temp\RSPC.tmp"
+<h3>Output Window</h3>
+Compiling...
+BMDoc.cpp
+BMView.cpp
+BMViewer.cpp
+Generating Code...
+Linking...
+Creating temporary file "D:\DOCUME~1\Alexey\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+/nologo /o"Release/BMViewer.bsc" 
+.\Release\StdAfx.sbr
+.\Release\BMDoc.sbr
+.\Release\BMView.sbr
+.\Release\BMViewer.sbr
+.\Release\BrightContDlg.sbr
+.\Release\ChildFrm.sbr
+.\Release\DeNoiseDlg.sbr
+.\Release\Filter.sbr
+.\Release\HistDlg.sbr
+.\Release\HistView.sbr
+.\Release\MainFrm.sbr
+.\Release\Raster.sbr]
+Creating command line "bscmake.exe @D:\DOCUME~1\Alexey\LOCALS~1\Temp\RSPE.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+BMViewer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
